@@ -10,6 +10,7 @@ services:
             - "%settings_manager.settings%"
 
     dmishh.settings.cached_settings_manager:
+        public: true
         class: Dmishh\SettingsBundle\Manager\CachedSettingsManager
         arguments: ["@dmishh.settings.settings_manager", ~, ~]
 

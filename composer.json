@@ -1,5 +1,5 @@
 {
-    "name": "dmishh/settings-bundle",
+    "name": "marcindorosiewicz/settings-bundle",
     "description": "Database centric Symfony configuration management. Global and per-user settings supported.",
     "keywords": ["symfony", "bundle", "config", "configuration", "settings"],
     "homepage": "https://github.com/dmishh/SettingsBundle",
@@ -22,8 +22,8 @@
     "require": {
         "php": "^5.5.9|^7.0",
         "psr/cache": "^1.0",
-        "symfony/framework-bundle": "^2.7|^3.0",
-        "symfony/form": "^2.7|^3.0",
+        "symfony/framework-bundle": "^2.7|^3.0|^4.0",
+        "symfony/form": "^2.7|^3.0|^4.0",
         "doctrine/orm": "^2.2.3"
     },
     "require-dev": {
